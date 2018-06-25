@@ -1,0 +1,184 @@
+/*SEGUIMIENTO DE LA PAGINA DE ESTILOS.
+
+Lineas 20 a 73 estilos de la barra de navegacion.
+Lineas 75 a 80 estilos del container de la vista olvidopass
+Lineas 85 a 130 estilos del footer
+Lineas 131 a 140 estilos de las tablas
+Lineas 141 a 150 estilos de barra costado tablas
+Lineas 150 a 175 estilos de los MODALES DE CAMBIOS
+Lineas 176 a 190 estilos de la pagina SETTINGS
+
+*/
+
+
+/*Barra de Navegacion*/
+
+body{
+    background-image: url(../img/back.jpg);
+  }
+
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/*Olvido pass*/
+
+#olvidopass{
+  padding: 30px;
+  position:  sticky;
+}
+
+
+/*Footer*/
+/*
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+.copyrights{
+margin-top:5px;
+}
+
+footer.container-fluid.text-center.foot {
+    background: #383838;
+}
+
+.dark-line{
+border-top: 1px solid #525252;
+}
+
+.white-txt{
+color: #FFF;
+}
+
+
+a.link {
+    color: #008acc;
+    border: 1px #008acc solid;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.link:hover {
+background: #008acc;
+    color: #383838;
+}
+
+.footimg{
+width: 5rem;
+}*/
+
+
+
+
+/*ESTILOS DE LAS TABLAS*/
+
+
+#tabla{
+  background-color: lightgray;
+
+}
+
+
+#detallesDeViaje{
+  background-color: blue;
+
+}
+
+#eliminarUsuarioBtn{
+  margin: 10px;
+}
+
+/****ESTILOS DE LOS MODALES DE CAMBIOS*****/
+
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
+
+
+/* SUBRAYADO DE LOS LINK EN PANELES */
+div a:hover{
+  text-decoration: none;
+}
+
+#mapa{
+  width: 50%;
+  height: 50%;
+}
+
+/*#titulosBarraLateral{
+  font-weight: bold;
+  color: black;
+}*/
